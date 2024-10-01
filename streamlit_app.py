@@ -34,7 +34,7 @@ def preprocess_and_predict(img):
     return decoded_predictions
 
 # ส่วนติดต่อผู้ใช้ (UI)
-st.title("แนะนำเมนู")
+st.title("แนะนำเมนูจ้า")
 
 # ให้ผู้ใช้อัปโหลดไฟล์รูปภาพ
 uploaded_file = st.file_uploader("Choose an image of an ingredient...", type=["jpg", "png", "jpeg"])
